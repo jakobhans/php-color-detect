@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PHP color detect</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="main_wrapper">
+            <div id="header">
+                <h1>PHP color detect</h1>
+                <div id="header-navigation">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="https://github.com/jakobhans/php-color-detect">Project page</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <h2>Description</h2>
+                <p>"PHP color detect" is a class to use different algorithms for getting the proportion each color is being used in an image.</p>
+                <p>Supported image formats are JPEG, PNG and GIF. Maximum size is 2Mb.</p>
+            </div>
+            <div id="form">
+                <form action="process_image.php" method="POST">
+                    <p><label for="algorithm">Algorithm:</label></p>
+                    <p><select name="algorithm">
+                        <option value="a_star">A*</option>
+                        <option value="alpha_beta">Alpha-Beta Pruning</option>
+                        <option value="bellman_ford">Bellman Ford</option>
+                        <option value="best_first">Best First</option>
+                        <option value="binary_tree">Binary Tree</option>
+                        <option value="bogosort">Bogosort</option>
+                        <option value="boyer_moore">Boyer Moore Horspool</option>
+                        <option value="bozosort">Bozosort</option>
+                        <option value="breadth_first">Breadth First</option>
+                        <option value="brent_cycle">Brent Cycle Detection</option>
+                        <option value="bresenham">Bresenham Line</option>
+                        <option value="bubble">Bubble Sort</option>
+                        <option value="burrows_wheeler">Burrows Wheeler Transform</option>
+                        <option value="caesar_cipher">Caesar Cipher</option>
+                        <option value="catalan_numbers">Catalan Numbers</option>
+                        <option value="chebyshev_distance">Chebyshev Distance</option>
+                        <option value="cocktail_sort">Cocktail Sort</option>
+                        <option value="convex_hull">Convex Hull</option>
+                        <option value="counting_sort">Counting Sort</option>
+                        <option value="dekkers">Dekkers</option>
+                        <option value="depth_first">Depth First</option>
+                        <option value="depth_limited">Depth Limited</option>
+                        <option value="dijkstra">Dijkstra</option>
+                        <option value="euclidian_norm">Euclidian Norm</option>
+                        <option value="euclidian_distance">Euclidian Distance</option>
+                        <option value="fisher_yates">Fisher Yates</option>
+                        <option value="floyd_cycle_detection">Floyd Cycle Detection</option>
+                        <option value="floyd_warshall">Floyd Warshall</option>
+                        <option value="gale_shapely">Gale Shapely</option>
+                        <option value="gauss_seidel">Gauss Seidel</option>
+                        <option value="gnome">Gnome Sort</option>
+                        <option value="hamming_code">Hamming Code</option>
+                        <option value="hamming_weight">Hamming Weight</option>
+                        <option value="heap">Heap Sort</option>
+                        <option value="huffman">Huffman Coding</option>
+                        <option value="insertion">Insertion Sort</option>
+                        <option value="iterative_deepening">Iterative Deepening</option>
+                        <option value="k_means">K Means Clustering</option>
+                        <option value="knapsack">Knapsack</option>
+                        <option value="knuth_morris_pratt">Knuth Morris Pratt</option>
+                        <option value="kruskal_tree">Kruskal Minimum Spanning Tree</option>
+                        <option value="lempel_ziv_welch">Lempel Ziv Welch</option>
+                        <option value="levenshtein_distance">Levenshtein Distance</option>
+                        <option value="linear">Linear</option>
+                        <option value="mandelbrot">Mandelbrot Set</option>
+                        <option value="manhattan_distance">Manhattan Distance</option>
+                        <option value="markov_chain">Markov Chain</option>
+                        <option value="maximum_subarray">Maximum Subarray</option>
+                        <option value="merge_sort">Merge Sort</option>
+                        <option value="minimax">Minimax</option>
+                        <option value="minkowski_distance">Minkowski Distance</option>
+                        <option value="move_front">Move To Front Transform</option>
+                        <option value="negamax">Negamax</option>
+                        <option value="newton_raphson">Newton Raphson</option>
+                        <option value="partial_selection">Partial Selection Sort</option>
+                        <option value="pollard_rho">Pollard Rho</option>
+                        <option value="prim_min_spanning_tree">Prim Minimum Spanning Tree</option>
+                        <option value="quick_sort">Quick Sort</option>
+                        <option value="rabin_karp">Rabin Karp</option>
+                        <option value="radix_sort">Radix Sort</option>
+                        <option value="selection_sort">Selection Sort</option>
+                        <option value="shell_sort">Shell Sort</option>
+                        <option value="stooge_sort">Stooge Sort</option>
+                        <option value="thompsons_construction">Thompsons Construction</option>
+                        <option value="warshall">Warshall</option>
+                    </select></p>
+                </form>
+            </div>
+        </div>
+   </body>
+</html>
